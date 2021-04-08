@@ -32,6 +32,10 @@
     border-radius: 10rem;
     cursor: pointer;
   }
+  .show-modal:focus,
+  .modal:active {
+    outline: none;
+  }
   
   .close-modal {
     position: absolute;
@@ -65,13 +69,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
-  
     background-color: rgb(238, 202, 202);
     padding: 6rem;
     border-radius: 5px;
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
     z-index: 10;
   }
+  
   
   .overlay {
     position: absolute;
